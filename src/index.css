@@ -11,19 +11,19 @@
   }
 
   :root {
-    --background: 0 0% 100%;
+    --background: 250 33% 97%;
     --foreground: 222.2 84% 4.9%;
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-    --primary: 60 100% 50%;
+    --primary: 255 92% 76%;
     --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96.1%;
+    --secondary: 250 33% 95%;
     --secondary-foreground: 222.2 47.4% 11.2%;
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 60 100% 50%;
+    --accent: 255 92% 76%;
     --accent-foreground: 222.2 47.4% 11.2%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
@@ -67,10 +67,4 @@
 
 .gradient-text {
   @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
-}
-
-.pixelated-cat {
-  image-rendering: pixelated;
-  width: 64px;
-  height: 64px;
 }

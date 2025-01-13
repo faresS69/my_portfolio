@@ -6,7 +6,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "next-themes";
 import Index from "./pages/Index";
 import { ThemeToggle } from "./components/ThemeToggle";
-import { PixelatedCat } from "./components/PixelatedCat";
 
 const queryClient = new QueryClient();
 
@@ -22,7 +21,6 @@ const App = () => (
             <Route path="/" element={<Index />} />
           </Routes>
         </BrowserRouter>
-        <PixelatedCat />
       </TooltipProvider>
     </ThemeProvider>
   </QueryClientProvider>
