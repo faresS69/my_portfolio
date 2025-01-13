@@ -3,22 +3,34 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const projects = [
   {
-    title: "EcoTracker",
-    description: "A sustainable living app with real-time carbon footprint tracking",
-    tech: "Flutter, Firebase, BLoC",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=500"
+    title: "BNG Optica",
+    description: "Optical glasses selling app built with Flutter and Firebase",
+    tech: "Flutter, Firebase",
+    image: "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=500"
   },
   {
-    title: "MindfulMinutes",
-    description: "Meditation and mindfulness app with custom animations",
-    tech: "Flutter, Provider, Custom Animations",
-    image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?auto=format&fit=crop&w=500"
+    title: "SOS Learning",
+    description: "Scientific lessons platform for medicine students",
+    tech: "Flutter",
+    image: "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=500"
   },
   {
-    title: "DevConnect",
-    description: "Professional networking platform for developers",
-    tech: "Flutter, GraphQL, GetX",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=500"
+    title: "CRAFTY",
+    description: "Mobile platform connecting service providers with customers",
+    tech: "Flutter, Web",
+    image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=500"
+  },
+  {
+    title: "Printzilla",
+    description: "Mobile app for thermal printer receipt generation",
+    tech: "Flutter",
+    image: "https://images.unsplash.com/photo-1562240020-ce31ccb0fa7d?auto=format&fit=crop&w=500"
+  },
+  {
+    title: "Locky",
+    description: "Mobile app to control door locks",
+    tech: "Flutter, Web",
+    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=500"
   }
 ];
 
